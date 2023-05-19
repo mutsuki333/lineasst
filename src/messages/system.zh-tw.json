@@ -1,0 +1,22 @@
+{
+  "locale": "zh-tw",
+  "messages": [
+    { "key": "raw", "tmpl": "{{.Info}}" },
+
+    { "key": "ECMN-03-0", "tmpl": "非法參數{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "ECMN-16-0", "tmpl": "未認證請求{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "ECMN-07-0", "tmpl": "權限不足{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "ECMN-05-0", "tmpl": "查無資料{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "ECMN-06-0", "tmpl": "請求衝突{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "ECMN-02-0", "tmpl": "伺服器錯誤{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "ECMN-14-0", "tmpl": "伺服器忙碌中{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "ECMN-09-0", "tmpl": "資源使用中{{if .Info}}: {{.Info}}{{end}}" },
+
+    { "key": "ECOR-10-1", "tmpl": "重整等待中{{if .Info}}: {{.Info}}{{end}}" },
+
+    { "key": "C", "tmpl": "創建{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "U", "tmpl": "更新{{if .Info}}: {{.Info}}{{end}}" },
+    { "key": "D", "tmpl": "刪除{{if .Info}}: {{.Info}}{{end}}" }
+
+  ]
+}

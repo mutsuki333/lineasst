@@ -1,0 +1,21 @@
+/*
+	errors.proto
+	Purpose: Define error messages
+
+	@author Evan Chen
+	@version 1.0 2023/02/22
+*/
+
+syntax = "proto3";
+
+package error;
+
+import "google/protobuf/timestamp.proto";
+
+option go_package = "github.ibm.com/mesexpress/pms/common/errors";
+
+message ErrorDetial {
+  string code = 1;
+	string message = 2;
+	google.protobuf.Timestamp emited = 3;
+}

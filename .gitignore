@@ -1,0 +1,16 @@
+
+
+# build files
+build
+
+# generated files
+/service
+
+# dev files
+dev
+
+
+
+
+# OS
+.DS_Store
